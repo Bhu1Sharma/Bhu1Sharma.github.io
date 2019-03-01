@@ -1,0 +1,37 @@
+<!--CREATED BY : BHUWAN SHARMA-->
+<html>
+  <body>
+    <div id="root">
+      <center>
+        <div id="game">
+          <span max=100% id="timeRemaining">Memory Game</span>
+          <p id="screen"></p>
+          <div id=buttons>
+          <button id="levelbtn" onclick="timer(300)">Easy</button>
+          <button id="levelbtn" onclick="timer(180)">Medium</button>
+          <button id="levelbtn" onclick="timer(120)">Hard</button>
+          <button id="help" onclick='help()'>Help</button>
+          <button id="about" onclick='about()'>About</button>
+          </div>
+        </div>
+      </center>
+    </div>
+  </body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <title>MEMORY GAME</title>
+    <script type="text/javascript" src="./script/main.js"></script>
+    <script>		
+const images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"img/1.png","img/2.png","img/3.png","img/4.png","img/5.png","img/6.png","img/7.png","img/8.png",
+"img/9.png","img/10.png","img/11.png","img/12.png","img/13.png","img/14.png","img/15.png","img/16.png","img/17.png","img/18.png"
+			)</script>
+  </head>
+</html>
