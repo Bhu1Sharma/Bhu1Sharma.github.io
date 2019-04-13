@@ -113,7 +113,7 @@ const about = ()=>
  screenDOM.style.display = 'block';
   let q = `This game is developed by Bhuwan Sharma <br/>
             <a href='mailto:bhuwansharma.1996@gmail.com'>Mail me</a> for reporting bugs or any improvement<br/><br/>
-            <a href='http://bhu1sharma.github.io> Back</a>`;
+            <a href='http://bhu1sharma.github.io'> Back</a>`;
   screenDOM.innerHTML = q;
   gameDOM.appendChild(screenDOM);
 }
